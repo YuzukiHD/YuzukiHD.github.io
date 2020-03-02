@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<!-- Main -->
+<div id="main">
+	{% for pic in site.data.picindex %}
+	<article class="thumb">
+		<a href="images/{{ pic.file }}" class="image"><img src="images/{{ pic.file }}" alt="{{ pic.file }}" /></a>
+		<h2>{{ pic.title }}</h2>
+		<p>{{ pic.des }}</p>
+	</article>
+	{% endfor %}
+</div>

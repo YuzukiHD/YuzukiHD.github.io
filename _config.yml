@@ -1,0 +1,23 @@
+title: Tenebrous
+subtitle: GloomyGhost Photo Album
+auther: GloomyGhost
+baseurl: "/tenebrous" 
+url: ""
+downloadurl: https://pan.baidu.com/s/1zv244aoRFmE7Knipif7eOw
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+markdown: kramdown
+repository: GloomyGhost-MosquitoSeal/Tenbrous.git
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+
