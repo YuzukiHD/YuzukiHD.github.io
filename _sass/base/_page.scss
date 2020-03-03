@@ -35,6 +35,7 @@
 
 	body {
 		background: _palette(bg);
+		user-select: none;
 
 		// Stops initial animations until page loads.
 			&.is-preload {
