@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<style type="text/css" media="screen">
+    .feed {
+        margin: 10px auto;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    h1 {
+        margin: 50% 0;
+        font-size: 4em;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
+</style>
+
+<div class="feed"></div>
+
+<script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    function GetQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+    if (GetQueryString("state") === 'ok') {
+        $('.feed').html("<h1>Done, we got your email!</h1>")
+    }else if(GetQueryString("state") === 'no'){
+        $('.feed').html("<h1>ummmmm, we got some problems during sending email</h1>")
+    }else{
+        $('.feed').html("<h1>ummmmm, we got some problems, The server is not responding</h1>")
+    }
+</script>
