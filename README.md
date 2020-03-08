@@ -1,6 +1,5 @@
 
 # Tenebrous
 
+A Simple Static Useful Photo Gallery design by HTML5 UP - Multiverse
 
-
-design: Multiverse by HTML5 UP
