@@ -23,7 +23,7 @@ layout: default
     function GetQueryString(name) {
         let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
         let = window.location.search.substr(1).match(reg);
-        if (r != null) {
+        if (reg != null) {
             return unescape(r[2]);
         } else {
             return null;
