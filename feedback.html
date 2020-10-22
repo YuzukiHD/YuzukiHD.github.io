@@ -24,7 +24,7 @@ layout: default
         let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
         let = window.location.search.substr(1).match(reg);
         if (reg != null) {
-            return unescape(r[2]);
+            return unescape(reg[2]);
         } else {
             return null;
         }
