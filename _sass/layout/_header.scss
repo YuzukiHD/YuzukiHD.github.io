@@ -91,6 +91,14 @@
 				}
 			}
 		}
+
+		#large-header {
+			display: block;
+		}
+
+		#small-header {
+			display: none;
+		}
 	}
 
 	@include breakpoint('<=small') {
@@ -122,6 +130,14 @@
 						}
 					}
 				}
+			}
+
+			#large-header {
+				display: none;
+			}
+
+			#small-header {
+				display: block;
 			}
 		}
 	}
