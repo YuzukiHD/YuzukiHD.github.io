@@ -3,3 +3,28 @@ pic:
     file: yuzukilizard.jpg
     des: Yuzukilizard is a Small Heterogeneous & AI Powered Dev Board Based on Allwinner V851S
     link: https://github.com/YuzukiHD/Yuzukilizard
+    license: 
+
+  - title: Yuzuki Rosetta
+    file: yuzukirosetta.jpg
+    des: Yuzuki Rosetta is a low-cost Linux development board based on the R328-S3. Dual-core A7, 128MB RAM, NAND Flash, WI-FI&BT. Raspberry Pi Zero shape
+    link: https://github.com/YuzukiHD/YuzukiRosetta
+    license: 
+
+  - title: Yuzuki Chameleon
+    file: yuzukichameleon.jpg
+    des: Yuzuki Chameleon is a Raspberry Pi A Shaped SBC based on Allwinner H616
+    link: https://github.com/YuzukiHD/YuzukiChameleon
+    license: 
+
+  - title: 
+    file: 
+    des: 
+    link: 
+    license: 
+
+  - title: 
+    file: 
+    des: 
+    link: 
+    license: 

@@ -114,6 +114,21 @@
 					background-color: _palette(bg);
 				}
 			}
+
+			span {
+				@include vendor('transition', 'background-color #{_duration(panel)} ease');
+				border: 0;
+				color: _palette(fg-bold);
+				display: inline-block;
+				
+				&.icon {
+					&:before {
+						color: _palette(fg-bold);
+						float: left;
+						margin-right: 0.75em;
+					}
+				}
+			}
 		}
 
 		.loader {
