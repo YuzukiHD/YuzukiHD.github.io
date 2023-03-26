@@ -1,9 +1,8 @@
 title: Tenebrous
 subtitle: GloomyGhost Photo Album
 auther: GloomyGhost
-baseurl: "/Tenebrous" 
+baseurl: "/" 
 url: ""
-downloadurl: https://pan.baidu.com/s/1zv244aoRFmE7Knipif7eOw
 
 sass:
   sass_dir: _sass
@@ -11,7 +10,7 @@ sass:
 
 # Build settings
 markdown: kramdown
-repository: GloomyGhost-MosquitoSeal/Tenbrous.git
+repository: YuzukiHD/YuzukiHD.github.io
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
