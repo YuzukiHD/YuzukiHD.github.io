@@ -17,6 +17,30 @@ pic:
     link: https://github.com/YuzukiHD/YuzukiChameleon
     license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
 
+  - title: YuzukiLOHCC PRO
+    file: yuzukilohccpro.jpg
+    des: Low cost USB3.2Gen1 HDMI-USB Video Acquisition With Loop Out (Loop Out HDMI Capture Card) base on MS2130 & MS9332
+    link: https://github.com/YuzukiHD/YuzukiLOHCC-PRO
+    license: CERN Open Hardware Licence Version 2 - Permissive
+
+  - title: ProjectYosemite
+    file: ProjectYosemite.png
+    des: Small Heterogeneous & AI Powered Computing SBC Based on V853
+    link: https://github.com/YuzukiHD/ProjectYosemite
+    license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
+  - title: YuzukiRulerPro
+    file: YuzukiRulerPro.jpg
+    des: YuzukiRulerPro based on Allwinner D1-H RISC-V Processor
+    link: https://github.com/YuzukiHD/YuzukiRulerPro
+    license: CERN Open Hardware Licence Version 2 - Permissive
+
+  - title: 
+    file: 
+    des: 
+    link: 
+    license: 
+
   - title: 
     file: 
     des: 
