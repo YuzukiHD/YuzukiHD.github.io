@@ -35,20 +35,44 @@ pic:
     link: https://github.com/YuzukiHD/YuzukiRulerPro
     license: CERN Open Hardware Licence Version 2 - Permissive
 
-  - title: 
-    file: 
-    des: 
-    link: 
-    license: 
+  - title: Contemporary Art Driver
+    file: ContemporaryArtDriver.jpg
+    des: Contemporary Art Driver
+    link: https://github.com/YuzukiHD/Contemporary-Art-Driver
+    license: CERN Open Hardware Licence Version 2 - Permissive
 
-  - title: 
-    file: 
-    des: 
-    link: 
-    license: 
+  - title: YuzukiHCC
+    file: hcc.jpg
+    des: Ultra low cost HDMI-USB Video Acquisition (HDMI Capture Card) based on MS2109
+    link: https://github.com/YuzukiHD/YuzukiHCC
+    license: CERN Open Hardware Licence Version 2 - Permissive
 
-  - title: 
-    file: 
-    des: 
-    link: 
-    license: 
+  - title: Yuzuki Mavericks
+    file: YuzukiLOHCC.jpg
+    des: YuzukiMavericks is your small USB Flash Driver-shaped Linux development board base on F1C200s
+    link: https://github.com/YuzukiHD/YuzukiMavericks
+    license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
+  - title: YuzukiCK1N
+    file: YuzukiCK1N.jpg
+    des: YuzukiCK1N 86 Panel Solution based on Allwinner V3x
+    link: https://github.com/YuzukiHD/YuzukiCK1N
+    license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
+  - title: YuzukiRV Router
+    file: YuzukiRVRouter.jpg
+    des: Yuzuki RISC-V Router Based on Allwinner D1s
+    link: https://github.com/YuzukiHD/YuzukiRV-Router
+    license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
+  - title: Nezha D1s
+    file: Nezha_D1s.jpg
+    des: The Nezha D1s development board is a EVB based on the Allwinner D1s chip design
+    link: https://github.com/YuzukiHD/Nezha-D1s
+    license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
+  - title: YuzukiHD2040
+    file: hd2040.jpg
+    des: Dual DVI Interface Powered By RP2040
+    link: https://github.com/YuzukiHD/YuzukiHD2040
+    license: BSD 3-Clause License
