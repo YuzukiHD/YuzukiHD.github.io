@@ -19,21 +19,3 @@ layout: default
 <div class="feed"></div>
 
 <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
-<script>
-    function GetQueryString(name) {
-        let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-        let = window.location.search.substr(1).match(reg);
-        if (reg != null) {
-            return unescape(reg[2]);
-        } else {
-            return null;
-        }
-    }
-    if (GetQueryString("state") === 'ok') {
-        $('.feed').html("<h1>Done, we got your email!</h1>")
-    } else if (GetQueryString("state") === 'no') {
-        $('.feed').html("<h1>ummmmm, we got some problems during sending email</h1>")
-    } else {
-        $('.feed').html("<h1>ummmmm, we got some problems, The server is not responding</h1>")
-    }
-</script>
