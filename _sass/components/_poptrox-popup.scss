@@ -120,14 +120,6 @@
 				border: 0;
 				color: _palette(fg-bold);
 				display: inline-block;
-				
-				&.icon {
-					&:before {
-						color: _palette(fg-bold);
-						float: left;
-						margin-right: 0.75em;
-					}
-				}
 			}
 		}
 
