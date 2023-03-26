@@ -91,6 +91,32 @@
 			p {
 				color: _palette(fg-bold);
 			}
+			
+			a {
+				@include vendor('transition', 'background-color #{_duration(panel)} ease');
+				border: 0;
+				color: _palette(fg-bold);
+				display: inline-block;
+				letter-spacing: _font(kerning-alt);
+				padding: 0 1.65em;
+				text-transform: uppercase;
+
+				&.icon {
+					&:before {
+						color: _palette(fg-light);
+						float: right;
+						margin-left: 0.75em;
+					}
+				}
+
+				&:hover {
+					color: _palette(fg-bold) !important;
+				}
+
+				&.active {
+					background-color: _palette(bg);
+				}
+			}
 		}
 
 		.loader {
