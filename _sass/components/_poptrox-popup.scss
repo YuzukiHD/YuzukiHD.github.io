@@ -96,7 +96,6 @@
 				@include vendor('transition', 'background-color #{_duration(panel)} ease');
 				border: 0;
 				color: _palette(fg-bold);
-				float: right;
 
 				&.icon {
 					&:before {
