@@ -8,15 +8,11 @@ layout: default
 	<article class="thumb">
 		<a href="images/{{ pic.file }}" class="image"><img src="images/{{ pic.file }}" alt="{{ pic.file }}" /></a>
 		<h1>{{ pic.title }}</h1>
-		<p>
-			<div class="caption-desc">
-				{{ pic.des }}
-			</div>
+		<p class="caption-desc">
+			{{ pic.des }}
 			<br />
 			<a href="{{ pic.link }}" class="icon brands fa-github">{{ site.repository_index }}/{{ pic.title }}</a>
-			<div class="caption-desc">
-				<span class="icon solid fa-balance-scale">{{ pic.license }}</span>
-			</div>
+			<span class="icon solid fa-balance-scale">{{ pic.license }}</span>
 		</p>
 	</article>
 	{% endfor %}
