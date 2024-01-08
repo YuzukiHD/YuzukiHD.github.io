@@ -2,7 +2,7 @@ title: YuzukiHD
 subtitle: YuzukiTsuru Hardware Open Source
 auther: YuzukiTsuru
 baseurl: "/" 
-url: "/"
+url: "https://yuzukihd.top/"
 
 sass:
   sass_dir: _sass
