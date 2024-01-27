@@ -1,4 +1,10 @@
 pic:
+  - title: TinyVision
+    file: tinyvision.png
+    des: TinyVision - A Tiny Linux Board / IPC / Server / Router / And so on...
+    link: https://tinyvision.yuzukihd.top/#/
+    license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+
   - title: Yuzukilizard
     file: yuzukilizard.jpg
     des: Yuzukilizard is a Small Heterogeneous & AI Powered Dev Board Based on Allwinner V851S
