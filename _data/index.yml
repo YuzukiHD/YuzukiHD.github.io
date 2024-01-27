@@ -1,6 +1,6 @@
 pic:
   - title: TinyVision
-    file: tinyvision.png
+    file: tinyvision.jpg
     des: TinyVision - A Tiny Linux Board / IPC / Server / Router / And so on...
     link: https://tinyvision.yuzukihd.top/#/
     license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
@@ -30,7 +30,7 @@ pic:
     license: CERN Open Hardware Licence Version 2 - Permissive
 
   - title: ProjectYosemite
-    file: ProjectYosemite.png
+    file: ProjectYosemite.jpg
     des: Small Heterogeneous & AI Powered Computing SBC Based on V853
     link: https://github.com/YuzukiHD/ProjectYosemite
     license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
