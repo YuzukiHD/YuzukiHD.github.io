@@ -33,7 +33,7 @@ jobs:
       with:
         SSH_PRIVATE_KEY: ${{ secrets.FTP_SERVER_PASSWD }}
         ARGS: "-rlgoDzvc -i"
-        SOURCE: ${{ github.workspace }}/_site/
+        SOURCE: /_site/
         REMOTE_HOST: ${{ secrets.FTP_SERVER_IP }}
         REMOTE_USER: ${{ secrets.FTP_SERVER_USERNAME }}
         TARGET: /www/wwwroot/yuzukihd.top/
