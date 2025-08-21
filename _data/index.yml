@@ -82,3 +82,15 @@ pic:
     des: Dual DVI Interface Powered By RP2040
     link: https://github.com/YuzukiHD/YuzukiHD2040
     license: BSD 3-Clause License
+
+  - title: Avaota A1
+    file: AvaotaA1.jpg
+    des: Avaota A1 is a Powerful Open Sourcce SBC with Allwinner T527 Octa-Core A55 SoC
+    link: https://github.com/AvaotaSBC/Avaota-A1
+    license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+    
+  - title: Avaota F1
+    file: AvaotaF1.jpg
+    des: AvaotaF1 is a tiny RISC-V 32 Linux SBC based on Allwinner V821
+    link: https://github.com/AvaotaSBC/AvaotaF1
+    license: CERN Open Hardware Licence Version 2 - Strongly Reciprocal
